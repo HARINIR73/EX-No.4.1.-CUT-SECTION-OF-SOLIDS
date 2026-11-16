@@ -1,5 +1,5 @@
 # EX No.4.1. CUT SECTION OF SOLIDS
-## DATE:
+## DATE:4.11.26
 
 ## AIM
 To create the solid model from given drawing and section the solid model
@@ -11,36 +11,29 @@ To create the solid model from given drawing and section the solid model
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+Open a new 3D CAD file and select the top horizontal plane to create a 2D sketch.
+Sketch an elongated base with two equal end arcs connected by two tangent straight lines.
+<img width="450" height="231" alt="Screenshot 2026-11-16 210614" src="https://github.com/user-attachments/assets/b175dab4-11d1-42e3-93f7-afa9353ebc5b" />
+Draw two small circles concentric with the end arcs for the mounting bolts.
+ Use the Extrude tool to give the base sketch its required thickness.
+<img width="477" height="517" alt="Screenshot 2026-11-16 210842" src="https://github.com/user-attachments/assets/b5aa8736-37b1-47ef-b352-03e20be8adcb" />
+Create a new 2D sketch on the top flat surface of the extruded base flange.
+Sketch a large circle at the center point that overhangs the front and back edges slightly.
+<img width="546" height="132" alt="Screenshot 2026-11-16 211003" src="https://github.com/user-attachments/assets/6f83cb72-7c57-4e87-b67f-d6f1a13cad13" />
+Use the Extrude command to pull the central cylinder upward to its full height.
+Sketch two concentric circles on the top face and use Extrude Cut to form the counterbore and through-hole.
+<img width="482" height="527" alt="Screenshot 2026-11-16 211145" src="https://github.com/user-attachments/assets/56fafb6b-20c2-4869-a04d-930ec5c9f543" />
+Sketch a small circle on a vertical midplane and cut horizontally through the hub wall into the inner bore.
+Check all dimensions against your blueprint and save the finished 3D model.
 
-![image](https://user-images.githubusercontent.com/113594316/198825274-c6a8d3ee-fb19-4641-b915-8d2e000c40a8.png)
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198825282-0d3de4b8-b6d9-446a-ae2a-461955057399.png)
-
-5.	Use inspect feature to measure the dimensions of sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198825301-194365b4-69d2-42ad-8545-a68d3ca1f442.png)
-
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198825314-b90f6aba-da26-4f0d-8d61-a03e8ad0d765.png)
-
-7.Use extrude option to convert 3D model from sketch
-
-![image](https://user-images.githubusercontent.com/113594316/198825328-205fac21-1322-4d67-894b-6fd92e454e26.png)
-
-8.Use revolve option to convert 2D to 3D.
-
-![image](https://user-images.githubusercontent.com/113594316/198825337-455049de-f053-48b8-9dd0-ebeb189c0dde.png)
 
 ## INPUT:
-![image](https://user-images.githubusercontent.com/113594316/198825351-b514a4e7-06af-4ee0-8197-e8267749f8a8.png)
+<img width="931" height="572" alt="Screenshot 2026-11-16 205527" src="https://github.com/user-attachments/assets/21041c91-6f98-434f-aae3-b0a01dfa7210" />
+
 
 ## OUTPUT:
+<img width="1471" height="730" alt="Screenshot 2026-11-16 210104" src="https://github.com/user-attachments/assets/221cb317-ab77-49a8-83de-bd16373f9068" />
 
 ## RESULT:
 
